@@ -1,11 +1,11 @@
-def arithmetic_arranger(problems, compute=True):
+def arithmetic_arranger(problems, compute=False):
     top = ""
     bot = ""
     sep = ""
     ans = ""
 
     if len(problems) > 5:
-        errmsg = "Error: Too many problems"
+        errmsg = "Error: Too many problems."
         return errmsg
     else:
         for problem in problems:
